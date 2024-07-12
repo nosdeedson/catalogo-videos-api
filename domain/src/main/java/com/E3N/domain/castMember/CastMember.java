@@ -2,6 +2,7 @@ package com.E3N.domain.castMember;
 
 import com.E3N.domain.validation.Error;
 import com.E3N.domain.validation.ValidationHandler;
+import com.E3N.domain.validation.handler.ThrowsValidationHandler;
 
 import java.time.Instant;
 

@@ -24,6 +24,7 @@ public class SaveCastMemberUseCase extends UseCase<CastMember, CastMember> {
         }
         final var notification = Notification.create();
         anIn.validate(notification);
+
         if (notification.hasError()){
             throw NotificationException.with("Invalid Castmember", notification);
         }
